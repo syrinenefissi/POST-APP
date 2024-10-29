@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POST-APP</title>
+    <link rel="stylesheet" href="../src/css/global.css" />
+    <link rel="stylesheet" href="../src/css/navbar.css" />
+    <link rel="stylesheet" href="../src/css/hero.css" />
+    <link rel="stylesheet" href="../src/css/history.css" />
+    <link rel="stylesheet" href="../src/css/post-card.css" />
+</head>
+<body>
+    <!-- Conteneur global pour toutes les sections -->
+    <div class="main-container">
+
+        <!-- Conteneur pour la section hero -->
+        <div id="heroContainer">
+            hey !
+        </div>
+
+        <!-- Conteneur pour l'historique des posts -->
+        <div id="historyContainer"></div>
+    </div>
+
+    <!-- Scripts JavaScript pour charger dynamiquement les sections et gérer les interactions -->
+    <script src="../src/js/loadSections.js"></script> <!-- Script pour charger les sections dynamiquement -->
+    <script src="../src/js/hero.js"></script>         <!-- Script pour les interactions dans la section hero -->
+    <script src="../src/js/post-card.js"></script>    <!-- Script pour les interactions spécifiques à chaque carte de post -->
+    <script src="../src/js/api.js"></script>          <!-- Script pour les appels API vers le backend-->
+</html>

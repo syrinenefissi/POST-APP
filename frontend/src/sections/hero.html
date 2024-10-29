@@ -1,0 +1,38 @@
+<section class="hero">
+  <header class="hero-header">
+    <h1 class="navbar">POST APP</h1>
+  </header>
+  <div class="hero-content">
+    <h2 class="slogan">
+      Lâche ton meilleur post<br /><span>Pour gagner en </span>Visibilité.
+    </h2>
+    <button id="addPostButton" class="cta-button">Ajouter un post</button>
+  </div>
+
+  <!-- Formulaire de création de post masqué au départ -->
+
+  <div id="postsForm" style="display: none">
+    <form id="postForm">
+      <label for="pseudo">Pseudo :</label>
+      <input type="text" id="pseudo" name="pseudo" required /><br /><br />
+
+      <label for="photo">Photo :</label>
+      <input type="file" id="photo" name="photo" accept="image/*" /><br /><br />
+
+      <label for="content">Commentaire :</label>
+      <textarea id="content" required></textarea><br /><br />
+
+      <button type="button" onclick="submitUserForm()">Envoyer</button>
+      <button type="button" class="cancel-button">Annuler</button>
+    </form>
+  </div>
+
+  <div class="hero-footer">
+    <!-- <a href="#history" class="explore-link">La liste de tous les posts</a> -->
+    <a href="#history" id="viewAllPosts" class="explore-link"
+      >La liste de tous les posts</a
+    >
+
+    <span class="arrow">&#x2193;</span>
+  </div>
+</section>

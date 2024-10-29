@@ -1,0 +1,54 @@
+#heroContainer {
+    height: 100vh;
+    display: flex;
+    align-items: center; /* Centre le contenu verticalement */
+    justify-content: center; /* (optionnel) Centre le contenu horizontalement */
+    height: 100vh; /* La section prend toute la hauteur de la page */
+    text-align: center; /* Centre le texte horizontalement */
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espace entre le contenu principal et le footer */
+    align-items: center;
+    height: 100vh; /* Prend toute la hauteur de la page */
+    text-align: center;
+    width: 100%;
+    background-color: #f8c291;
+    padding: 20px; /* Un peu de padding pour éloigner le footer du bord */
+  }
+  
+  .hero-content {
+    margin-top: auto; /* Place le contenu au centre de l'espace disponible */
+  }
+  
+  #addPostButton {
+    color: #642369;
+    font-weight: 800;
+  }
+  .slogan {
+    color: white;
+  }
+  
+  .addPostButton {
+    color: #642369;
+  }
+  
+  .arrow {
+    color: #642369;
+  }
+  
+  .hero-footer {
+    margin-top: auto;
+    margin-bottom: 10px; /* Ajuste l'espace entre le footer et le bas de la section */
+    font-size: 0.9rem;
+    font-weight: 900;
+    font-size: medium;
+    color: #c890cc;
+  }
+  
+  #viewAllPosts {
+    color: #642369;
+    text-decoration: none;
+  }
