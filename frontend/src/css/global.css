@@ -1,0 +1,130 @@
+/* Reset de base pour enlever les marges et les paddings par défaut */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles globaux */
+body {
+  font-family: Arial, sans-serif; /* Police par défaut */
+  background-color: white; /* Couleur de fond de la page */
+  color: #333; /* Couleur de texte par défaut */
+  line-height: 1.6; /* Hauteur de ligne pour lisibilité */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Conteneur principal pour le contenu */
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Titres */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Liens */
+a {
+  color: #9bbe70; /* Couleur des liens */
+  text-decoration: none; /* Supprime le soulignement */
+}
+
+a:hover {
+   text-decoration: #9bbe70 underline; /* Ajoute un soulignement au survol */
+}
+
+/* Boutons */
+button {
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 27px;
+  width: 15rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffeaa7 ; /* Couleur du bouton au survol */
+
+}
+
+/* Formulaires */
+input[type='text'],
+input[type='file'],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Flex Containers Utilitaires */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Marges utilitaires */
+.mt-1 {
+  margin-top: 10px;
+}
+.mt-2 {
+  margin-top: 20px;
+}
+.mb-1 {
+  margin-bottom: 10px;
+}
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+/* Classes de taille */
+.text-small {
+  font-size: 0.875rem;
+}
+.text-large {
+  font-size: 1.25rem;
+}
+
+/* Espacement entre les sections */
+section {
+  margin: 40px 0; /* Espace au-dessus et en dessous de chaque section */
+  padding: 20px; /* Espace à l'intérieur de chaque section */
+  background-color: #fff; /* Fond blanc pour chaque section */
+}
+
+/* Conteneur global pour centrer et limiter la largeur de toutes les sections */
+.main-container {
+  margin: 0 auto; /* Centre le contenu de la page */
+  width: 100%;
+}

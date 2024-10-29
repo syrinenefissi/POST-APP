@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  justify-content: flex-start; /* Centre les éléments horizontalement */
+  align-items: center; /* Centre les éléments verticalement */
+  padding: 15px 20px; /* Espacement autour des éléments de la navbar */
+  font-weight: 800;
+  color: white;
+}
+
+.navbar a {
+  color: white; /* Couleur des liens */
+  text-decoration: none;
+  margin: 0 20px; /* Espace entre les liens */
+  font-size: 1.1rem;
+}
+
+.navbar a:hover {
+  color: #ddd; /* Couleur des liens au survol */
+}
